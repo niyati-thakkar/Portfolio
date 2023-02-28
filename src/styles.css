@@ -1,0 +1,55 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+.titleParent{
+  white-space: nowrap;
+  background-color: lightyellow;
+  padding: 0;
+  border-radius: 3%;
+  margin: 1rem;
+  text-align:center;
+}
+.titleImage{
+  width: 50px;
+  display: inline-block;
+  padding: 5px;
+}
+.titleHeading{
+  display: inline-block;
+  vertical-align: middle;
+  padding:10px 0 0 0;
+}
+.topicRow{
+  justify-content: center;
+}
+.cardCol{
+  width: 17rem;
+  margin:1%;
+  padding:0;
+}
+.cardTitleLink{
+  text-decoration:none;
+}
+.cardPara{
+  text-align: justify;
+}
+.row{
+  justify-content: center;
+}
+.cardProject{
+  
+  width: 40rem;
+  margin: 1rem;
+}
+
+.projectCardImage{
+  height: 20rem;
+  object-fit: contain;
+  padding: 5px;
+  border-radius: 1%;
+}
+.projectCardText{
+  text-align: justify;
+}
