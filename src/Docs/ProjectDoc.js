@@ -2,7 +2,7 @@ function ProjectDoc(){
     const projects = [
         {
             title : "Newsletter Signup",
-            content : "NewThe newsletter signup project adds user details to the Mailchimp services list.sletter signup project adds user details to the Mailchimp services list.",
+            content : "The newsletter signup project adds user details to the Mailchimp services list.sletter signup project adds user details to the Mailchimp services list.",
             lnk : "https://newsletter-signup-oldp.onrender.com/",
              
         },
