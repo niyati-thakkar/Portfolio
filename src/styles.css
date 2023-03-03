@@ -82,7 +82,11 @@ padding: 0.5rem;
 .nav-link{
   color:#f5f6fa
 }
-
+.socials{
+  margin-right: 1rem;
+  display: inline-block;
+  white-space: nowrap;
+}
 
 /* initial */
 
@@ -112,11 +116,7 @@ padding: 0.5rem;
   font-size: 1.5rem;
   color: #333333
 }
-.socials{
-  margin-left: 0;
-  display: inline-block;
-  white-space: nowrap;
-}
+
 .initialLinks{
   background-color: #333333;
   color: #f5f6fa;
@@ -155,7 +155,7 @@ padding: 0.5rem;
 /* subhead */
 .subHeader{
   /* justify-content: center; */
-  margin: 0;
+  margin: 4rem 0 0 0;
   display: block;
 
 }
@@ -163,9 +163,8 @@ padding: 0.5rem;
   height: 1px;
   background: #dddddd;
   border-bottom: #757575 solid 1px;
-  margin-bottom: 3rem;
   position: relative;
-  margin-top: 2rem;
+  margin: 1rem 0 2rem 0;
 }
 .subHeadText{
   background-color: #fff;
@@ -187,7 +186,7 @@ padding: 0.5rem;
 }
 .subHeadPara{
   text-align: justify;
-
+  padding: 1rem;
 }
 
 
@@ -197,12 +196,12 @@ padding: 0.5rem;
   flex-wrap: wrap;
   margin-top: 3rem;
   justify-content: center;
-  margin: 1rem;
+  margin: 2rem 1rem;
 }
 
 .aboutMePara{
   display: inline-block;
-  padding: 2rem 3rem;
+  padding: 5rem 3rem;
 }
 ul{
   padding: 0;;
@@ -250,5 +249,42 @@ ul{
   .aboutMePara{
     padding: 2rem 1rem;
   }
+  .footerSection{
+    display:block;
+    width: 100%;
+    padding: 0.5rem;
+  }
   
+}
+
+/* FOOTER HEADING */
+
+.footerHeading{
+  font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.footerDetails{
+  border-bottom:  1px solid #333333;
+}
+footer{
+  background-color: #111;
+  color: #dddddd;
+  padding: 1rem;
+  position: relative;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.copyRight{
+  padding : 1rem;
+  text-align: center;
+}
+.footerIcons{
+  padding: 0.5rem 0.5rem 0 0;
+}
+.footerSection{
+  padding: 1rem;
 }
