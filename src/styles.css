@@ -11,64 +11,11 @@
   #f5f5f5
    */
 
-.titleParent{
-  white-space: nowrap;
-  background-color: lightyellow;
-  padding: 0;
-  border-radius: 3%;
-  margin: 1rem;
-  text-align:center;
-}
-.titleImage{
-  width: 50px;
-  display: inline-block;
-  padding: 5px;
-}
-.titleHeading{
-  display: inline-block;
-  vertical-align: middle;
-  padding:10px 0 0 0;
-}
-.topicRow{
-  justify-content: center;
-}
-.cardCol{
-  width: 17rem;
-  margin:1%;
-  padding:0;
-}
-.cardTitleLink{
-  text-decoration:none;
-}
-.cardPara{
-  text-align: justify;
-}
-.row{
-  justify-content: center;
-}
-.cardProject{
-  background-color: #1A132F;
-  width: 40rem;
-  margin: 1rem;
-}
 
-.projectCardImage{
-  height: 20rem;
-  object-fit: contain;
-  padding: 5px;
-  border-radius: 1%;
-}
-.projectCardText{
-  text-align: justify;
-}
-.btn{
-  background-color:#EEEEEE;
-  color: #373A40;
-}
 
 /* navbar */
 
-.navbar {overflow: hidden;
+.navbar {
   background-color: #111;
 padding: 0.5rem;
 }
@@ -114,11 +61,11 @@ padding: 0.5rem;
   text-align: center;
   line-height: 1.6;
   font-size: 1.5rem;
-  color: #333333
+  color: #373A40
 }
 
 .initialLinks{
-  background-color: #333333;
+  background-color: #373A40;
   color: #f5f6fa;
   margin: 1rem 1rem 1rem 1rem;
   text-align: center;
@@ -130,7 +77,7 @@ padding: 0.5rem;
 .buttonInitialParent{
   display: flex;
   justify-content: center;
-  padding: 0 0 3rem 0;
+  padding: 0 0 4.5rem 0;
 }
 
 .talkButton{
@@ -153,6 +100,10 @@ padding: 0.5rem;
 
 
 /* subhead */
+
+.subHeading{
+  padding: 0 4.5rem;
+}
 .subHeader{
   /* justify-content: center; */
   margin: 4rem 0 0 0;
@@ -188,38 +139,39 @@ padding: 0.5rem;
   text-align: justify;
   padding: 1rem;
 }
-
+.subHeadParentPara{
+  padding: 2rem 1rem;
+}
 
 /* about me */
 .aboutMe{
   display: flex;
   flex-wrap: wrap;
-  margin-top: 3rem;
   justify-content: center;
-  margin: 2rem 1rem;
+  margin: 3rem;
 }
 
 .aboutMePara{
   display: inline-block;
-  padding: 5rem 3rem;
+  padding: 1rem 1rem;
 }
 ul{
-  padding: 0;;
+  padding: 0;
 }
 .skillBlock{
   display: inline-block;
 }
 .skillHead{
-  padding: 2rem 0;
+  padding: 2rem 1rem;
 }
 .skillClass{
   display: inline-block;
-  color: #fff;
+  color: #f5f6fa;
   background-color: #757575;
   border-radius: 5px;
   padding: 5px;
   padding: 0.3rem 1rem;
-  margin: 0 1rem 1rem 0;
+  margin: 0 0 1rem 1rem;
   text-align: center;  
 }
 .squeeze{}
@@ -246,14 +198,27 @@ ul{
     display: block;
     margin: 0.5rem;
   }
-  .aboutMePara{
-    padding: 2rem 1rem;
-  }
+  
   .footerSection{
     display:block;
     width: 100%;
     padding: 0.5rem;
   }
+  .projectCardParent{
+    display: block;
+    padding-bottom: 0;
+  }
+  .projectCardImage{
+    width: 100%;
+    padding-bottom:0 !important;
+  }
+  .projectCardCol{
+    padding-bottom: 0;
+  }
+  .projectCardParent{
+    padding: 1rem  !important;
+  }
+  
   
 }
 
@@ -265,11 +230,12 @@ ul{
     letter-spacing: 1px;
 }
 .footerDetails{
-  border-bottom:  1px solid #333333;
+  border-bottom:  4px solid #757575;
 }
-footer{
+.regularFooter{
+  padding-top: 2rem;
   background-color: #111;
-  color: #dddddd;
+  color: #f5f6fa;
   padding: 1rem;
   position: relative;
 }
@@ -287,4 +253,165 @@ a{
 }
 .footerSection{
   padding: 1rem;
+}
+
+
+/* Projects */
+
+.projectCardParent{
+  justify-content: center;
+  padding: 2rem 2rem;
+}
+.projectCardCol{
+  padding: 1rem 2rem;
+  text-align: justify;
+  position: relative;
+}
+.projectCardImage{
+  width: 100%;
+}
+.projectCardButton{
+  position: relative;
+  cursor: pointer;
+  margin-right: 1rem;
+  display: inline-block;
+}
+.projectCardLinks{
+  padding-top: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.projectCardTitle{
+  position: relative;
+  padding-right: 1rem;
+  display: inline-block;
+  font-size: 2rem;
+}
+
+.projectCardContent{
+  padding-top: 1rem;
+  font-size: 1.5rem;
+}
+/* PageHead */
+
+.pageHeadTitle{
+  font-size: 4rem;;
+  margin: 4rem 2rem 0 2rem;
+  color: #333;
+}
+
+.pageTitleAndLinks{
+  display: block;
+}
+.pageHeadContent{
+  font-size: 1.5rem;
+  margin: 1.5rem 2rem 2rem 3rem;
+  color: #333;
+}
+.tagItem{
+  padding: 2rem 1rem 1rem 0;
+  vertical-align: bottom;
+  font-size: 1rem;
+  color: #757575;
+  bottom:0;
+}
+.tagParent{
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  position: relative;
+  list-style: none;
+}
+
+/* Articles */
+.articlesMain{
+  padding: 3rem 0;
+}
+/* Title */
+.articlesTopicTitle{
+  text-align: center;
+  /* justify-content: center; */
+  display: block;
+  margin: 2rem 0;
+  background-color: lightcyan;
+  border-radius: 6px;
+}
+.articlesTitleImage{
+   width: 3rem;
+   display: inline-block;
+   /* padding: 0 2rem; */
+   /* vertical-align: top; */
+   vertical-align: middle;
+   box-shadow: #111;
+}
+.topicTitleHeading{
+  display: inline-block;
+  font-size: 4rem;
+  padding: 0 2rem;
+  vertical-align: middle;
+}
+
+
+/* topic card */
+
+.topicCardTitle{
+  position: relative;
+  padding: 0 0 0 0.7rem;
+  display: inline-block;
+  text-align: justify;
+}
+.topicCardContent{
+  position: relative;
+  display: block;
+}
+
+.topicCardPara{
+  position: relative;
+  text-align: justify;
+  display: inline-block;
+  padding: 0 0 2rem 0;
+}
+
+.topicCardLink{
+  display: inline-block;
+  vertical-align: top;
+  /* bottom: 1rem;
+  left: 1.5rem; */
+}
+
+.articlesCard{
+  border-width: 4px;
+  display: inline-block;
+  margin: 1rem;
+  justify-content: center;
+}
+
+.articlesCardParent{
+  display: block;
+}
+.titleAndLink{
+  display: block;
+}
+/* MyProjects */
+.myProjectsButton{
+  text-align: center;
+}
+.myProjectIndividualButton{
+  border-color: #373A40;
+  border-width: 3px;
+  color: #373A40;
+  margin: 0 0 1rem 0;
+  text-align: center;
+  text-justify: center;
+  /* display: flex; */
+  padding: 0.2rem 1rem;
+}
+.myProjects{
+  margin: 1.5rem;
+  display: block;
+}
+.myArticles{
+  margin: 1.5rem;
+  display: block;
 }

@@ -25,6 +25,11 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+                <b>RESUME</b>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
                 <b>ABOUT</b>
               </a>
             </li>

@@ -3,9 +3,9 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 
 function Contact(){
-return <footer>
-    <div class="container">
-        <div class="row footerDetails">
+return <footer className="regularFooter">
+    <div className="container">
+        <div className="row footerDetails">
             <div className = "col-8 footerSection">
                 <h3 className="footerHeading">NIYATI THAKKAR</h3>
                 <p>I am a Full Stack Web Developer and a Technical Content Writer.</p>

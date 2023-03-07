@@ -1,9 +1,9 @@
 import React from "react";
-function subHead(){
+function subHead(props){
     return(
         <div className="subHeader">
         <div className="subHeadLine">
-        <h3 className="subHeadText">About</h3></div>
+        <h3 className="subHeadText">{props.head}</h3></div>
         </div>
         );
 }

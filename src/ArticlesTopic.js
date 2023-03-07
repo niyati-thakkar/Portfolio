@@ -1,5 +1,5 @@
-import Card from "./Card";
-import Title from "./Title";
+import Card from "./ArticlesTopicCard";
+import Title from "./TopicTitle";
 import JavaDoc from "./Docs/JavaDoc";
 import PythonDoc from "./Docs/PythonDoc";
 import KotlinDoc from "./Docs/KotlinDoc";
@@ -38,11 +38,13 @@ function ret(title){
 }
 function Topic(props){
 return (<div className="container">
-<div className="row topicRow">
+<div className="row articlesCardsParent d-flex justify-content-center">
 <Title title={props.title} />
 {/* {console.log(ret("Java"))} */}
 {ret(props.title).map((doc, index) => createCards(doc, index))}
 </div>
 </div>);
 }
+export {ret, createCards};
 export default Topic;
+

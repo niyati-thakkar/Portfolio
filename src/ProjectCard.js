@@ -1,13 +1,29 @@
+import React from "react";
 import "./styles.css";
+import Tag from "./Tag";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LaunchIcon from '@mui/icons-material/Launch';
 function ProjectCard(props){
-    return(<div className="card col-4 cardProject">
-  <img src = {require(`./images/${props.title}.png`)} className="card-img-top projectCardImage" alt="sample screen" />
-  <div className="card-body d-flex flex-column">
-    <h5 className="card-title">{props.title}</h5>
-    <p className="card-text projectCardText">{props.content}</p>
-    <a href={props.lnk} className="mt-auto btn btn-primary">View Webpage</a>
-  </div>
-</div>
-);
+    return(
+    <div className="row projectCardParent">
+      <div className="col projectCardCol">
+        <img src = {require(`./images/${props.title}.png`)} className="projectCardImage" alt="sample screen" />
+      </div>
+      <div className="col projectCardCol">
+        <div className="projectCardTitleAndLinks">
+          <h5 className="projectCardTitle" style={{fontSize:props.titleSize}}>{props.title}</h5>
+          <div className="projectCardLinks">
+            <a href={props.lnk} className="projectCardButton"><LaunchIcon fontSize="large"/></a>
+            <a href={props.githlnk} className="projectCardButton"><GitHubIcon fontSize="large"/></a>
+          </div>
+        </div>
+        <p className="projectCardContent" style={{fontSize:props.contentSize}}>{props.content}</p>
+        
+        {/* {console.log(props.tags)} */}
+        <Tag tags = {props.tags}/>
+        {/* {console.log(props.tags)} */}
+      </div>
+    </div>
+  );
 }
 export default ProjectCard;

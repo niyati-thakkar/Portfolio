@@ -1,11 +1,11 @@
-import Header from "./Header";
-import Topic from "./Topic";
+
+import Topic from "./ArticlesTopic";
+import PageHead from "./PageHead";
 import "./styles.css";
 function Articles() {
   return (
-    <div>
-      
-<Header />
+    <div className="articlesMain">
+      <PageHead title=".articles" content="Here are all the published artilces on the web."/>
 <Topic title = "Java"/>
 <Topic title = "Kotlin" />
 <Topic title = "Python" />
