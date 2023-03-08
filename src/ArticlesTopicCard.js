@@ -8,7 +8,7 @@ function Card(props) {
         <div className="titleAndLink row">
           <h5 className="col-10 topicCardTitle">
           {props.title}</h5>
-          <a href={props.lnk} className="col-2 topicCardLink"><LaunchIcon/></a>
+          <a href={props.lnk} className="col-2 topicCardLink"  target="_blank"><LaunchIcon/></a>
           </div>
           <div className="topicCardContent">
           <p className="card-text topicCardPara">

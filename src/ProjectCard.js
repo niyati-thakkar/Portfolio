@@ -13,8 +13,8 @@ function ProjectCard(props){
         <div className="projectCardTitleAndLinks">
           <h5 className="projectCardTitle" style={{fontSize:props.titleSize}}>{props.title}</h5>
           <div className="projectCardLinks">
-            <a href={props.lnk} className="projectCardButton"><LaunchIcon fontSize="large"/></a>
-            <a href={props.githlnk} className="projectCardButton"><GitHubIcon fontSize="large"/></a>
+            <a href={props.lnk} className="projectCardButton"  target="_blank"><LaunchIcon fontSize="large"/></a>
+            <a href={props.githlnk} className="projectCardButton"  target="_blank"><GitHubIcon fontSize="large"/></a>
           </div>
         </div>
         <p className="projectCardContent" style={{fontSize:props.contentSize}}>{props.content}</p>

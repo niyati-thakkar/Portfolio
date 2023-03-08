@@ -12,9 +12,9 @@ return <footer className="regularFooter" ref={contactRef}>
             </div>
             <div className = "col-4 footerSection">
             <h3 className="footerHeading">SOCIALS</h3>
-            <a href="https://www.linkedin.com/in/niyatit/" className="footerIcons"><LinkedInIcon/></a>
-            <a  href="https://github.com/niyati-thakkar" className="footerIcons"><GitHubIcon/></a>
-            <a  href="mailto:niyatithakkar29.nt@gmail.com" className="footerIcons"><EmailIcon/></a>
+            <a href="https://www.linkedin.com/in/niyatit/" className="footerIcons" target="_blank"><LinkedInIcon/></a>
+            <a  href="https://github.com/niyati-thakkar" className="footerIcons" target="_blank"><GitHubIcon/></a>
+            <a  href="mailto:niyatithakkar29.nt@gmail.com" className="footerIcons" target="_blank"><EmailIcon/></a>
             </div>
         </div>
         <div className="row">

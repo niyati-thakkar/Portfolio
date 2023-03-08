@@ -9,6 +9,7 @@ import AboutMe from "./AboutMe";
 import Contact from "./Contact"
 import MyProjects from "./MyProjects";
 import MyArticles from "./MyArticles";
+import EXTNavbar from "./EXTNavbar";
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
 import Resume from "./Resume";
@@ -20,10 +21,11 @@ function App() {
   const contactRef= useRef(null);
   return (
     <Router>
-      <Navbar homeRef={homeRef} aboutRef={aboutRef} projectsRef={projectsRef} articlesRef={articlesRef} contactRef={contactRef}/>
+      
       <Routes>
       <Route exact path='/' element=
         {<div>
+          <Navbar homeRef={homeRef} aboutRef={aboutRef} projectsRef={projectsRef} articlesRef={articlesRef} contactRef={contactRef}/>
           <Initial homeRef={homeRef}/>
           <AboutMe aboutRef={aboutRef} />
           <MyProjects projectsRef={projectsRef}/>
@@ -31,13 +33,22 @@ function App() {
         </div>}
       />
       <Route path='/projects' element={
+        <div>
+        <EXTNavbar homeRef={homeRef} aboutRef={aboutRef} projectsRef={projectsRef} articlesRef={articlesRef} contactRef={contactRef}/>
         <Projects/>
+        </div>
       } />
       <Route path='/articles' element={
+        <div>
+        <EXTNavbar homeRef={homeRef} aboutRef={aboutRef} projectsRef={projectsRef} articlesRef={articlesRef} contactRef={contactRef}/>
         <Articles/>
+        </div>
       } />
       <Route path='/resume' element={
+        <div>
+        <EXTNavbar homeRef={homeRef} aboutRef={aboutRef} projectsRef={projectsRef} articlesRef={articlesRef} contactRef={contactRef}/>
         <Resume/>
+        </div>
       } />
 
         

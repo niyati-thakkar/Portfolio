@@ -23,32 +23,32 @@ function Navbar({homeRef, aboutRef, projectsRef, articlesRef, contactRef}) {
         <div className="collapse navbar-collapse " id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto" >
             <li className="nav-item active">
-            <a className="nav-link" href="#" onClick={() => {HandleScroll(homeRef.current)}} data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+            <a className="nav-link" href="#" onClick={() => {navigate("/");}} data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
                 <b>HOME</b>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" onClick={() => {HandleScroll(aboutRef.current)}} data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+              <a className="nav-link" href="#" onClick={() => {navigate("/");}} data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
                 <b>ABOUT</b>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" onClick={() => {HandleScroll(projectsRef.current)}} data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+              <a className="nav-link" href="#" onClick={() => {navigate("/projects");}} data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
                 <b>PROJECTS</b>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" onClick={() => {HandleScroll(articlesRef.current)}} data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+              <a className="nav-link" href="#" onClick={() => {navigate("/articles");}} data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
                 <b>ARTICLES</b>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#"  onClick={() => navigate("/resume")} data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+              <a className="nav-link" href="#"  target="_blank" onClick={() => navigate("/resume")} data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
                 <b>RESUME</b>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" onClick={() => {HandleScroll(contactRef.current)}} data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+              <a className="nav-link" href="#"  target="_blank" onClick={() => {HandleScroll(contactRef.current)}} data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
                 <b>CONTACT</b>
               </a>
             </li>
@@ -66,4 +66,3 @@ function Navbar({homeRef, aboutRef, projectsRef, articlesRef, contactRef}) {
     );
   }
   export default Navbar;
-  
