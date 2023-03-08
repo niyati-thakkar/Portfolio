@@ -1,13 +1,12 @@
 import React from 'react';
 import ProjectDoc from './Docs/ProjectDoc';
 import SubHead from './SubHead';
-import Project, { createCards } from './Projects';
-import { fontSize } from '@mui/system';
-
-
-function MyProjects(){
+import { createCards } from './Projects';
+import { useNavigate } from 'react-router-dom';
+function MyProjects({projectsRef}){
+    const navigate = useNavigate();
     return(
-        <div className="myProjects">
+        <div className="myProjects" ref={projectsRef}>
             <SubHead head="PROJECTS"/>
             <div className="subHeadParentPara">
             <p className="subHeadPara">
@@ -18,7 +17,7 @@ function MyProjects(){
             {ProjectDoc().slice(0,3).map((project, index) => createCards(project, index,"1rem","1.5rem"))}
             </div>
             <div className="myProjectsButton">
-            <a href="" className="myProjectIndividualButton btn btn-lg btn-outline-dark">Show More</a>
+            <a href="#" onClick={() => navigate("/projects")} className="myProjectIndividualButton btn btn-lg btn-outline-dark">Show More</a>
             </div>
         </div>
     );

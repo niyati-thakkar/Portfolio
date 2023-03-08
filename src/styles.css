@@ -31,8 +31,9 @@ padding: 0.5rem;
 }
 .socials{
   margin-right: 1rem;
-  display: inline-block;
-  white-space: nowrap;
+  display: inline-flex;
+  float: right;
+  /* white-space: nowrap; */
 }
 
 /* initial */
@@ -41,14 +42,14 @@ padding: 0.5rem;
   text-align: center;
   margin: 0;
   padding: 0 0 8rem 0;
-  padding-bottom: 6rem;
-  background-color: #f5f5f5;
+  padding-bottom: 10.5rem;
+    background-color: #f5f5f5;
   background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
   color:#373A40;
 }
 
 .heading-primary{
-  font-size: 300%;
+  font-size: 4rem;
   letter-spacing: 3px;
   color: #111;
   font-weight: 700;
@@ -88,11 +89,10 @@ padding: 0.5rem;
   float: right;
   justify-content: center;
   width: 4rem;
-  margin: 0 4rem 2rem 1rem;
+  margin: 0 4rem 2rem 0rem;
   border-radius: 50%;
   padding: 1rem 1rem 1rem 1rem;
   box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
-
 }
 .talkLink{
   color: #111;
@@ -176,13 +176,16 @@ ul{
 }
 .squeeze{}
 @media screen and (max-width: 900px) {
+  .initial{
+    padding-bottom: 9rem;
+  }
   .heading-primary{
-    font-size: 150%;
-    padding-top: 6rem;
+    font-size: 3rem;
+    padding-top: 12rem;
   }
   .para-primary{
-    font-size: 100%;
-    padding: 1rem;
+    font-size: 1.5rem;
+    padding: 2rem;
   }
   .heading-primary{
     display: block;
@@ -192,7 +195,10 @@ ul{
     display: block;
   }
   .squeeze{
-    padding-top: 0;
+    padding-top: 1rem;
+  }
+  .buttonInitialParent{
+    padding: 2rem 0 3rem 0;
   }
   .aboutMe{
     display: block;
@@ -215,8 +221,30 @@ ul{
   .projectCardCol{
     padding-bottom: 0;
   }
-  .projectCardParent{
-    padding: 1rem  !important;
+
+  .projectCardContent{
+    font-size: 1.2rem !important;
+  }
+  .projectCardTitle{
+    font-size: 1.5rem !important;
+  }
+  .subHeading{
+    padding: 2rem 1rem;
+    
+  }
+  .subHeader{
+    /* justify-content: center; */
+    margin: 3rem 0 0 0;
+    display: block;
+  
+  }
+  .talkButton{
+    
+    margin: 0 2rem 2rem 0rem;
+  }
+  .socials{
+    display: inline;
+
   }
   
   
@@ -230,7 +258,7 @@ ul{
     letter-spacing: 1px;
 }
 .footerDetails{
-  border-bottom:  4px solid #757575;
+  border-bottom:  2px solid #757575;
 }
 .regularFooter{
   padding-top: 2rem;
@@ -259,6 +287,7 @@ a{
 /* Projects */
 
 .projectCardParent{
+  
   justify-content: center;
   padding: 2rem 2rem;
 }
@@ -408,10 +437,12 @@ a{
   padding: 0.2rem 1rem;
 }
 .myProjects{
+  padding: 2rem 0;
   margin: 1.5rem;
   display: block;
 }
 .myArticles{
+  padding: 2rem 0;
   margin: 1.5rem;
   display: block;
 }

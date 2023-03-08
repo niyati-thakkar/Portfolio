@@ -1,8 +1,8 @@
 import React from 'react';
 import SubHead from "./SubHead";
-function AboutMe(){
+function AboutMe({aboutRef}){
     return(
-        <div className="aboutMe row">
+        <div className="aboutMe row" ref={aboutRef}>
                 <SubHead head="ABOUT"/>
                 <div className="subHeadParentPara col">
                 <p className="subHeadPara">I am currently pursuing my Bachelor's of Engineering in Computer Science from L. D. College of Engineering, Ahmedabad. I am passionate about programming and technology. I enjoy solving DSA problems and solving Sudoku which is a puzzle printed in every single newspaper.</p>
