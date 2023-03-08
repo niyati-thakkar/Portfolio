@@ -1,10 +1,12 @@
 import PageHead from "./PageHead";
 function Resume(){
     return(
-        <div>
+        <div className="">
             <PageHead title=".resume"/>
-            <image scr="" />
-            <a className="btn btn-dark" href="" download>Download</a>
+            <div className="resume">
+            <img src={require(`./images/NiyatiResume.png`)} className="resumeImage"/>
+            <a className="btn btn-dark initialLinks" href={require(`./NiyatiResume.pdf`)} download>Download</a>
+            </div>
         </div>
     )
 }

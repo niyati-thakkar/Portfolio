@@ -246,6 +246,13 @@ ul{
     display: inline;
 
   }
+  .resume{
+    margin: 1rem 0 !important;
+  }
+  .resumeImage{
+    width: 100%;
+    background-size: contain;
+  }
   
   
 }
@@ -445,4 +452,13 @@ a{
   padding: 2rem 0;
   margin: 1.5rem;
   display: block;
+}
+
+/* resume */
+
+.resume{
+  text-align: center;
+  margin: 2rem 0;
+}
+.resumeImage{
 }
