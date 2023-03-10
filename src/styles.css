@@ -375,6 +375,7 @@ ul{
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 600;
+  
 }
 .footerDetails{
   border-bottom:  2px solid #757575;
@@ -388,6 +389,7 @@ ul{
   padding-left: 2rem;
 }
 .footerSection{
+  text-align:start;
   padding: 1rem;
 }
 .semicircle{

@@ -60,11 +60,11 @@ function Navbar({homeRef, aboutRef, projectsRef, articlesRef, contactRef}) {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link socials" href="https://github.com/niyati-thakkar" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"  target="_blank">
-                <b><GitHubIcon/></b>
-              </a>
-              <a className="nav-link socials" href="https://www.linkedin.com/in/niyatit/" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"  target="_blank">
+              <a className="nav-link socials" href="#" onClick={() => {window.open("https://www.linkedin.com/in/niyatit/")}} data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"  target="_blank">
                 <b><LinkedInIcon/></b>
+              </a>
+              <a className="nav-link socials" href="#" onClick={() => {window.open("https://github.com/niyati-thakkar")}} data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"  target="_blank">
+                <b><GitHubIcon/></b>
               </a>
             </li>
           </ul>
