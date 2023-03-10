@@ -12,12 +12,11 @@ function createCards(props, index, contentSize, titleSize){
 
 function Project(){
     return (
-        <div>
+        <div className="projectsHere">
             {/* <Header /> */}
-            <PageHead title=".projects" content="Here are some of my web projects."/>
-            <div className="row">
+            <PageHead title=".projects"/>
+            <div className="pageHeadContent">Here are some of my web projects.</div>
             {ProjectDoc().map((project, index) => createCards(project, index,"1.5rem","2rem"))}
-            </div>
         </div>
     );
 }

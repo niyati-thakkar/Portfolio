@@ -5,7 +5,8 @@ import "./styles.css";
 function Articles() {
   return (
     <div className="articlesMain">
-      <PageHead title=".articles" content="Here are all the published artilces on the web."/>
+      <PageHead title=".articles"/>
+      <div className="pageHeadContent">Here are all the published artilces on the web.</div>
 <Topic title = "Java"/>
 <Topic title = "Kotlin" />
 <Topic title = "Python" />

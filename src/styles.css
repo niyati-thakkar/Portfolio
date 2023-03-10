@@ -11,39 +11,27 @@
   #f5f5f5
    */
 
-
+   a{
+    color: inherit;
+    text-decoration: none;
+  }
 
 /* navbar */
-body{
-  overflow-x:hidden;
-}
+
 .navbar {
   background-color: #111;
 }
-.nav{display: block; margin: 0; list-style: none;}
-.nav li {display: inline-block;}
-.nav {float: left;}
-
 .nav-item{
   padding-left: 2rem;
 }
-
 .nav-link{
   color:#f5f6fa
 }
-/* .navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-}
 
-.navbar .navbar-collapse {
-  text-align: center;
-} */
 .socials{
-  margin-right: 1rem;
+  padding-right: 2rem !important;
   display: inline-flex;
-  /* white-space: nowrap; */
+  white-space: nowrap;
 }
 .profileImage{
   padding-right: 0.5rem;
@@ -55,9 +43,8 @@ body{
 .initial{
   text-align: center;
   margin: 0;
-  padding: 0 0 8rem 0;
-  padding-bottom: 10.5rem;
-    background-color: #f5f5f5;
+  height: 100vh;
+  background-color: #f5f5f5;
   background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
   color:#373A40;
 }
@@ -67,40 +54,40 @@ body{
   letter-spacing: 3px;
   color: #111;
   font-weight: 700;
-  margin: 0;
-  padding:  12rem 1rem 0 0;
   display: inline-block;
+  padding: 12rem 0 0 2.4rem;
 }
+
 .para-primary{
-  padding: 2rem 1rem 4rem 1rem;
+  padding: 2rem 1rem;
   text-align: center;
   line-height: 1.6;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #373A40
 }
 
 .initialLinks{
   background-color: #373A40;
   color: #f5f6fa;
-  margin: 1rem 1rem 1rem 1rem;
   text-align: center;
   text-justify: center;
-  /* display: flex; */
   padding: 0.2rem 1rem;
+  margin: 1rem;
 }
 
 .buttonInitialParent{
   display: flex;
   justify-content: center;
-  padding: 0 0 4.5rem 0;
 }
+
 .mailMeParent{
   position: absolute;
   display: flex;
-  right: 0;
-  margin: 0 4rem 2rem 0rem;
+  right: 8%;
+  bottom: 8%;
   vertical-align: center;
 }
+
 .talkButton{
   z-index: 1;
   width: 4rem;
@@ -124,17 +111,14 @@ body{
 .emoji{
   font-size: 1.5rem;
 }
+
+
+
 /* subhead */
-
-.subHeading{
-  padding: 0 4.5rem;
-}
 .subHeader{
-  /* justify-content: center; */
-  margin: 4rem 0 0 0;
   display: block;
-
 }
+
 .subHeadLine{
   height: 1px;
   background: #dddddd;
@@ -147,47 +131,44 @@ body{
     position: absolute;
     top: -0.8rem;
     left: 50%;
-    margin-left: -160px;
-    width: 320px;
+    margin-left: -15rem;
+    width: 30rem;
     text-align: center;
     display: block;
     color: #757575;
     text-transform: uppercase;
-    font-size: 14px;
     font-size: 1.4rem;
     font-weight: normal;
     letter-spacing: 0.2rem;
     padding: 0 !important;
     font-family: "proxima nova semibold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
 }
-.subHeadPara{
-  text-align: justify;
 
+.subHeadPara{
+  font-size: 1.2rem;
+  text-align: justify;
+  padding-bottom: 2rem;
 }
 .subHeadParentPara{
-  padding: 2rem 1rem;
+  padding: 2rem;
 }
 
 /* about me */
 .aboutMe{
+  font-size: 1.2rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 3rem;
+  padding: 3rem 0 !important;
 }
 
-.aboutMePara{
-  display: inline-block;
-  padding: 1rem 1rem;
-}
 ul{
   padding: 0;
+  margin: 0 !important;
 }
-.skillBlock{
-  display: inline-block;
-}
+
 .skillHead{
-  padding: 2rem 1rem;
+  font-size: 2rem;
 }
 .skillClass{
   display: inline-block;
@@ -196,64 +177,341 @@ ul{
   border-radius: 5px;
   padding: 5px;
   padding: 0.3rem 1rem;
-  margin: 0 0 1rem 1rem;
+  margin: 1rem 1rem 0 0;
   text-align: center;  
 }
 .squeeze{}
-@media screen and (max-width: 500px) {
-  .profileImageFooter{
-    display: none !important;
-  }
-  .footerSocials{
-    padding-right:0;
-    padding-left: 3rem !important;
-  }
+
+/* MyProjects */
+.myProjectsButton{
+  text-align: center;
+  margin-top: 1rem;
 }
-@media screen and (max-width: 900px) {
-  .initial{
-    padding-bottom: 9rem;
-  }
+.myProjectIndividualButton{
+  border-color: #373A40;
+  border-width: 3px;
+  color: #373A40;
+  text-align: center;
+  text-justify: center;
+  padding: 0.2rem 1rem;
+}
+.myProjects{
+  padding: 0 2rem;
+  display: block;
+}
+
+/* Projects */
+.projectsHere{
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+.projectCardParent{
+  justify-content: center;
+  padding: 1rem;
+}
+.projectCardCol{
+  padding:0;
+  text-align: justify;
+  position: relative;
+}
+.projectCardImage{
+  width: 100%;
+}
+.projectCardButton{
+  position: relative;
+  cursor: pointer;
+  margin-right: 1rem;
+  display: inline;
+}
+.projectCardLinks{
+  display: inline;
+}
+.projectCardTitleAndLinks{
+  display: flex;
+  align-items: center;
+}
+.projectCardTitle{
+  position: relative;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 2rem;
+  padding-right: 1rem;
+}
+
+.projectCardContent{
+  padding-top: 1rem;
+  font-size: 1.5rem;
+}
+/* PageHead */
+
+.pageHeadTitle{
+  padding-top: 2rem;
+  font-size: 3rem;
+  color: #333;
+  font-weight: 500;
+}
+.pageHeadContent{
+  padding-bottom:1rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+
+
+.tagItem{
+  padding-right: 2rem;
+  vertical-align: bottom;
+  font-size: 1rem;
+  color: #757575;
+  bottom:0;
+}
+.tagParent{
+  padding-top: 2rem;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  position: relative;
+  list-style: none;
+}
+
+/* Articles */
+.articlesMain{
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+/* Title */
+.articlesTopicTitle{
+  margin: 1.5rem 0;
+  text-align: center;
+  display: block;
+  background-color: lightcyan;
+  border-radius: 6px;
+}
+.articlesTitleImage{
+   width: 3rem;
+   display: inline-block;
+   vertical-align: middle;
+   box-shadow: #111;
+}
+.topicTitleHeading{
+  display: inline-block;
+  font-size: 3rem;
+  padding-left:2rem;
+  vertical-align: middle;
+}
+
+
+/* topic card */
+
+.topicCardTitle{
+  position: relative;
+  padding-left:0.7rem;
+  display: inline-block;
+  text-align: justify;
+}
+.topicCardContent{
+  position: relative;
+  display: block;
+}
+
+.topicCardPara{
+  position: relative;
+  text-align: justify;
+  display: inline-block;
+}
+
+.topicCardLink{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.articlesCard{
+  border-width: 4px;
+  display: inline-block;
+  margin: 1rem;
+  justify-content: center;
+}
+
+.articlesCardParent{
+  display: block;
+}
+.titleAndLink{
+  display: block;
+}
+.myArticles{
+  padding: 3rem 2rem;
+  display: block;
+}
+
+/* resume */
+.resumeHere{
+  padding: 2rem;
+}
+.resume{
+  text-align: center;
+  padding:0;
+}
+
+.resumeImage{
+  padding:0;
+  width: 100%;
+  background-size: contain;
+}
+
+/* FOOTER HEADING */
+.regularFooter{
+  background-color: #111;
+  color: #f5f6fa;
+  padding:2rem;
+  position: relative;
+  margin-top: 3rem;
+  font-size: 1rem;
+}
+
+.footerHeading{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.footerDetails{
+  border-bottom:  2px solid #757575;
+  padding: 1rem 0;
+}
+.subLineFooter{
+}
+.nameAndDesignation{
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 2rem;
+}
+.footerSection{
+  padding: 1rem;
+}
+.semicircle{
+  position: absolute;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  height: 4rem;
+  width: 8rem;
+  border-radius: 150px 150px 0 0;
+  background-color: #111;
+  top:-8%;
+  margin-top: 1rem;
+}
+.upIcon{
+  /* position: absolute; */
+  margin: auto;
+  margin-top: -5%;
+  width: 4rem;
+  text-align: center;
+}
+
+.copyRight{
+  padding-top:1rem;
+  text-align: center;
+}
+.footerIcons{
+  padding: 0.5rem 0.5rem 0 0;
+}
+
+.profileImageFooter{
+  width:5rem !important;
+  display: inline-block;
+}
+
+.footerSocials{
+  vertical-align: bottom;
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+  /* inital */
   .heading-primary{
-    font-size: 3rem;
-    padding-top: 6rem;
-    display: block;
+    font-size: 2rem !important;
+    padding:6rem 0 0 0;
   }
   .para-primary{
     font-size: 1.5rem;
-    padding: 2rem;
-    margin: 0;
+    padding: 1rem;
+    text-align: justify;
   }
+
+  .mailMeParent{
+    right: 3%
+  }
+  .firstHeadingPrimary{
+    padding-right:0;
+  }
+
+  /* about me */
+  
+  /* project */
+  .projectCardTitle{
+    font-size: 1.5rem !important;
+  }
+}
+@media screen and (max-width: 600px){
+  .profileImageFooter{
+    display: none !important;
+  }
+  .footerSection{
+    padding: 0;
+  }
+  .footerSocials{
+    padding-left: 2rem !important;
+  }
+
+}
+@media screen and (max-width: 1000px) {
+
+  /* initial */
+  
+  .squeeze{
+    padding-top:0 !important;
+  }
+  .heading-primary{
+    margin:0;
+    font-size: 3rem;
+    padding:8rem 0 0 0;
+    display: block;
+  }
+  .buttonInitialParent{
+    padding: 0;
+    display: block;
+  }
+   .mailMeParent{
+    right: 5%;
+  }
+
+  /* about me */
+
   .subHeadText{
     margin: 0 -8rem !important;
     width: 16rem !important;
-  }
-  .buttonInitialParent{
-    display: block;
-  }
-  .squeeze{
-    padding-top: 1rem;
-  }
-  .buttonInitialParent{
-    padding: 2rem 0 3rem 0;
-  }
+  } 
   .aboutMe{
     display: block;
     padding: 0.5rem;
   }
   
+  /* footer */
   .footerSection{
     display:block;
     width: 100%;
-    padding: 0.5rem;
+    padding-bottom: 1rem;
   }
+  
+  .footerSocials{
+    padding-left: 8rem;
+  }
+
   .projectCardParent{
     display: block;
-    padding-bottom: 0;
   }
-  .projectCardImage{
-    width: 100%;
-    padding-bottom:0 !important;
-  }
+  
   .projectCardCol{
     margin: 0.5rem !important;
     padding:0;
@@ -263,33 +521,20 @@ ul{
   .projectCardContent{
     font-size: 1.2rem !important;
   }
-  .projectCardTitle{
-    font-size: 1.5rem !important;
-  }
-  .subHeading{
-    padding: 2rem 1rem;
-    
-  }
+  
   .subHeader{
     /* justify-content: center; */
     margin: 3rem 0 0 0;
     display: block;
   
   }
-  .mailMeParent{
-    margin: 0 2rem 2rem 0rem;
-  }
+  
   .socials{
     display: inline;
   }
-  .footerSocials{
-    padding-left: 7rem;
-  }
+  
   .resume{
     margin: 1rem 0 !important;
-  }
-  .articlesCardsParent{
-    margin: 0.5rem !important;
   }
   .topicTitleHeading{
     font-size: 2rem !important;
@@ -311,257 +556,3 @@ ul{
  
   
 }
-
-/* FOOTER HEADING */
-
-.footerHeading{
-  font-size: 1.5rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-.footerDetails{
-  border-bottom:  2px solid #757575;
-}
-.regularFooter{
-  background-color: #111;
-  color: #f5f6fa;
-  padding: 1rem;
-  padding-top: 2rem;
-  position: relative;
-  margin-top: 3rem;
-}
-a{
-  color: inherit;
-  text-decoration: none;
-}
-
-.copyRight{
-  padding : 1rem;
-  text-align: center;
-}
-.footerIcons{
-  padding: 0.5rem 0.5rem 0 0;
-}
-.footerSection{
-  padding: 1rem;
-}
-.semicircle{
-  position: absolute;
-  left: 49%;
-  transform: translate(-50%, -50%);
-  height: 4rem;
-  width: 8rem;
-  border-radius: 150px 150px 0 0;
-  background-color: #111;
-  top:-8%;
-  margin: 1rem;
-}
-.upIcon{
-  /* position: absolute; */
-  margin: auto;
-  margin-top: -5%;
-  width: 4rem;
-
-  text-align: center;
-}
-.profileImageFooter{
-  width:5rem !important;
-  display: inline-block;
-}
-.nameAndDesignation{
-  display: inline-block;
-  vertical-align: bottom;
-  padding-left: 2rem;
-}
-.footerSocials{
-  vertical-align: bottom;
-}
-
-/* Projects */
-
-.projectCardParent{
-  
-  justify-content: center;
-  padding: 2rem 1rem;
-}
-.projectCardCol{
-  padding:0;
-  text-align: justify;
-  position: relative;
-}
-.projectCardImage{
-  width: 100%;
-}
-.projectCardButton{
-  position: relative;
-  cursor: pointer;
-  margin-right: 1rem;
-  display: inline-block;
-}
-.projectCardLinks{
-  padding-top: 1rem;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.projectCardTitle{
-  position: relative;
-  padding: 1rem 1rem 0 0;
-  display: inline-block;
-  font-size: 2rem;
-}
-
-.projectCardContent{
-  padding-top: 1rem;
-  font-size: 1.5rem;
-}
-/* PageHead */
-
-.pageHeadTitle{
-  font-size: 4rem;;
-  margin: 4rem 2rem 0 2rem;
-  color: #333;
-}
-
-.pageTitleAndLinks{
-  display: block;
-}
-.pageHeadContent{
-  font-size: 1.5rem;
-  margin: 1.5rem 2rem 2rem 3rem;
-  color: #333;
-}
-.tagItem{
-  padding: 0 2rem 0 0;
-  vertical-align: bottom;
-  font-size: 1rem;
-  color: #757575;
-  bottom:0;
-}
-.tagParent{
-  padding-top: 2rem;
-  display: flex;
-  align-items: flex-end;
-  flex-wrap: wrap;
-  position: relative;
-  list-style: none;
-}
-
-/* Articles */
-.articlesMain{
-  padding: 3rem 0;
-}
-/* Title */
-.articlesTopicTitle{
-  text-align: center;
-  /* justify-content: center; */
-  display: block;
-  margin: 2rem 0;
-  background-color: lightcyan;
-  border-radius: 6px;
-}
-.articlesTitleImage{
-   width: 3rem;
-   display: inline-block;
-   /* padding: 0 2rem; */
-   /* vertical-align: top; */
-   vertical-align: middle;
-   box-shadow: #111;
-}
-.topicTitleHeading{
-  display: inline-block;
-  font-size: 4rem;
-  padding: 0 2rem;
-  vertical-align: middle;
-}
-
-
-/* topic card */
-
-.topicCardTitle{
-  position: relative;
-  padding: 0 0 0 0.7rem;
-  display: inline-block;
-  text-align: justify;
-}
-.topicCardContent{
-  position: relative;
-  display: block;
-}
-
-.topicCardPara{
-  position: relative;
-  text-align: justify;
-  display: inline-block;
-  padding: 0 0 2rem 0;
-}
-
-.topicCardLink{
-  display: inline-block;
-  vertical-align: top;
-  /* bottom: 1rem;
-  left: 1.5rem; */
-}
-
-.articlesCard{
-  border-width: 4px;
-  display: inline-block;
-  margin: 1rem;
-  justify-content: center;
-}
-
-.articlesCardParent{
-  display: block;
-}
-.titleAndLink{
-  display: block;
-}
-/* MyProjects */
-.myProjectsButton{
-  text-align: center;
-}
-.myProjectIndividualButton{
-  border-color: #373A40;
-  border-width: 3px;
-  color: #373A40;
-  margin: 0 0 1rem 0;
-  text-align: center;
-  text-justify: center;
-  /* display: flex; */
-  padding: 0.2rem 1rem;
-}
-.myProjects{
-  padding: 1.5rem;
-  display: block;
-}
-.myArticles{
-  padding: 2rem 0;
-  margin: 1.5rem;
-  display: block;
-}
-
-/* resume */
-
-.resume{
-  text-align: center;
-  margin: 2rem 0;
-  
-}
-.resumeImage{
-  width: 100%;
-  background-size: contain;
-}
-.topButton{
-  text-align: center;
-}
-.topLink{
-  width: 118px;
-  height: 90px;
-  display: block;
-  position: absolute;
-  left: 50%;
-  margin-left: -59px;
-  bottom: -40px;
-  text-indent: -9999px;
-}
-

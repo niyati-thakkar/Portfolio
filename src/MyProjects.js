@@ -8,10 +8,8 @@ function MyProjects({projectsRef}){
     return(
         <div className="myProjects" ref={projectsRef}>
             <SubHead head="PROJECTS"/>
-            <div className="subHeadParentPara">
-            <p className="subHeadPara">
+            <div className="subHeadPara">
             Below given are some of my deployed web projects displaying various front-end and back-end skills.
-            </p>
             </div>
             <div>
             {ProjectDoc().slice(0,3).map((project, index) => createCards(project, index,"1rem","1.5rem"))}

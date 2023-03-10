@@ -11,14 +11,13 @@ function MyArticles({articlesRef}){
     return(
         <div className="myArticles" ref={articlesRef}>
             <SubHead head="ARTICLES"/>
-            <div className="subHeadParentPara">
-            <p className="subHeadPara">
+            <div className="subHeadPara">
             Below given are some of my propular blogs on Technical subjects.
-            </p>
+            </div>
             <div className="row articlesCardsParent d-flex justify-content-center">
             {createOnes()}
             </div>
-            </div>
+            
             <div className="myProjectsButton">
             <a href="#" onClick={() => navigate("/articles")} className="myProjectIndividualButton btn btn-lg btn-outline-dark">Show More</a>
             </div>

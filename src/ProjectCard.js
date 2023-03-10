@@ -11,13 +11,13 @@ function ProjectCard(props){
       </div>
       <div className="col projectCardCol">
         <div className="projectCardTitleAndLinks">
-          <h5 className="projectCardTitle" style={{fontSize:props.titleSize}}>{props.title}</h5>
+          <div className="projectCardTitle" style={{fontSize:props.titleSize}}>{props.title}</div>
           <div className="projectCardLinks">
             <a href={props.lnk} className="projectCardButton"  target="_blank"><LaunchIcon fontSize="large"/></a>
             <a href={props.githlnk} className="projectCardButton"  target="_blank"><GitHubIcon fontSize="large"/></a>
           </div>
         </div>
-        <p className="projectCardContent" style={{fontSize:props.contentSize}}>{props.content}</p>
+        <div className="projectCardContent" style={{fontSize:props.contentSize}}>{props.content}</div>
         
         {/* {console.log(props.tags)} */}
         <Tag tags = {props.tags}/>

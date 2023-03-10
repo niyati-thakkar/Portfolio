@@ -18,19 +18,19 @@ return <footer className="regularFooter" ref={contactRef}>
             <div className = "col-8 footerSection">
             <img src={require(`./images/profileImage.png`)} className="profileImageFooter"/>
                 <div className='nameAndDesignation'>
-                <h3 className="footerHeading">NIYATI THAKKAR</h3>
-                <p>Full Stack Web Developer | Technical Content Writer.</p>
+                <div className="footerHeading">NIYATI THAKKAR</div>
+                <div className="subLineFooter">Full Stack Web Developer | Technical Content Writer.</div>
                 </div>
             </div>
             <div className = "col-4 footerSection footerSocials">
-            <h3 className="footerHeading">SOCIALS</h3>
+            <div className="footerHeading">SOCIALS</div>
             <a href="https://www.linkedin.com/in/niyatit/" className="footerIcons" target="_blank"><LinkedInIcon/></a>
             <a  href="https://github.com/niyati-thakkar" className="footerIcons" target="_blank"><GitHubIcon/></a>
             <a  href="mailto:niyatithakkar29.nt@gmail.com" className="footerIcons" target="_blank"><EmailIcon/></a>
             </div>
         </div>
         <div className="row">
-        <p className="copyRight">&copy; 2023. Made by <a href="#" onClick={() => navigate("/")}>Niyati Thakkar</a></p>
+        <div className="copyRight">&copy; 2023. Made by <a href="#" onClick={() => navigate("/")}>Niyati Thakkar</a></div>
         </div>
     </div>
 </footer>
