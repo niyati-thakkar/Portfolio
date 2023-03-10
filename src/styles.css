@@ -14,12 +14,13 @@
 
 
 /* navbar */
-
+body{
+  overflow-x:hidden;
+}
 .navbar {
   background-color: #111;
-padding: 0.5rem;
 }
-.nav{display: block; margin: 0; padding: 1rem; list-style: none;}
+.nav{display: block; margin: 0; list-style: none;}
 .nav li {display: inline-block;}
 .nav {float: left;}
 
@@ -172,7 +173,7 @@ padding: 0.5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 3rem;
+  padding: 3rem;
 }
 
 .aboutMePara{
@@ -199,6 +200,15 @@ ul{
   text-align: center;  
 }
 .squeeze{}
+@media screen and (max-width: 500px) {
+  .profileImageFooter{
+    display: none !important;
+  }
+  .footerSocials{
+    padding-right:0;
+    padding-left: 3rem !important;
+  }
+}
 @media screen and (max-width: 900px) {
   .initial{
     padding-bottom: 9rem;
@@ -228,7 +238,7 @@ ul{
   }
   .aboutMe{
     display: block;
-    margin: 0.5rem;
+    padding: 0.5rem;
   }
   
   .footerSection{
@@ -273,7 +283,7 @@ ul{
     display: inline;
   }
   .footerSocials{
-    margin-left: 7rem;
+    padding-left: 7rem;
   }
   .resume{
     margin: 1rem 0 !important;
@@ -298,7 +308,7 @@ ul{
     width: 100%;
     background-size: contain;
   } */
-  
+ 
   
 }
 
@@ -521,7 +531,7 @@ a{
   padding: 0.2rem 1rem;
 }
 .myProjects{
-  margin: 1.5rem;
+  padding: 1.5rem;
   display: block;
 }
 .myArticles{
