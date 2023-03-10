@@ -207,7 +207,7 @@ ul{
 }
 .projectCardParent{
   justify-content: center;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 .projectCardCol{
   padding:0;
@@ -215,6 +215,7 @@ ul{
   position: relative;
 }
 .projectCardImage{
+  
   width: 100%;
 }
 .projectCardButton{
@@ -227,6 +228,7 @@ ul{
   display: inline;
 }
 .projectCardTitleAndLinks{
+  padding: 1rem 0;
   display: flex;
   align-items: center;
 }
@@ -234,7 +236,7 @@ ul{
   position: relative;
   display: inline-block;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding-right: 1rem;
 }
 
