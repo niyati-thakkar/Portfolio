@@ -2,8 +2,10 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 import handleScroll from "./handleScroll";
+import { useNavigate } from 'react-router-dom';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 function Contact({contactRef}){
+    const navigate = useNavigate();
 return <footer className="regularFooter" ref={contactRef}>
     <div className="container">
     <div className='semicircle'>
@@ -14,10 +16,13 @@ return <footer className="regularFooter" ref={contactRef}>
     </div>
         <div className="row footerDetails">
             <div className = "col-8 footerSection">
+            <img src={require(`./images/profileImage.png`)} className="profileImageFooter"/>
+                <div className='nameAndDesignation'>
                 <h3 className="footerHeading">NIYATI THAKKAR</h3>
                 <p>Full Stack Web Developer | Technical Content Writer.</p>
+                </div>
             </div>
-            <div className = "col-4 footerSection">
+            <div className = "col-4 footerSection footerSocials">
             <h3 className="footerHeading">SOCIALS</h3>
             <a href="https://www.linkedin.com/in/niyatit/" className="footerIcons" target="_blank"><LinkedInIcon/></a>
             <a  href="https://github.com/niyati-thakkar" className="footerIcons" target="_blank"><GitHubIcon/></a>
@@ -25,7 +30,7 @@ return <footer className="regularFooter" ref={contactRef}>
             </div>
         </div>
         <div className="row">
-        <p className="copyRight">&copy; 2023. Made by <a href="#">Niyati Thakkar</a></p>
+        <p className="copyRight">&copy; 2023. Made by <a href="#" onClick={() => navigate("/")}>Niyati Thakkar</a></p>
         </div>
     </div>
 </footer>

@@ -22,18 +22,31 @@ padding: 0.5rem;
 .nav{display: block; margin: 0; padding: 1rem; list-style: none;}
 .nav li {display: inline-block;}
 .nav {float: left;}
-.nav.nav-right {float: right;}
+
 .nav-item{
-  padding-right: 2rem;
+  padding-left: 2rem;
 }
+
 .nav-link{
   color:#f5f6fa
 }
+/* .navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+} */
 .socials{
   margin-right: 1rem;
   display: inline-flex;
-  float: right;
   /* white-space: nowrap; */
+}
+.profileImage{
+  padding-right: 0.5rem;
+  background-size: contain;
 }
 
 /* initial */
@@ -259,6 +272,9 @@ ul{
   .socials{
     display: inline;
   }
+  .footerSocials{
+    margin-left: 7rem;
+  }
   .resume{
     margin: 1rem 0 !important;
   }
@@ -271,11 +287,17 @@ ul{
   .articlesTitleImage{
     width: 2rem !important;
   }
+  .semicircle{
+    width: 6rem !important;
+    height: 3rem !important;
+  }
+  .upIcon{
+    width: 3rem !important;
+  }
   /* .resumeImage{
     width: 100%;
     background-size: contain;
   } */
-  
   
   
 }
@@ -296,6 +318,7 @@ ul{
   padding: 1rem;
   padding-top: 2rem;
   position: relative;
+  margin-top: 3rem;
 }
 a{
   color: inherit;
@@ -330,6 +353,18 @@ a{
   width: 4rem;
 
   text-align: center;
+}
+.profileImageFooter{
+  width:5rem !important;
+  display: inline-block;
+}
+.nameAndDesignation{
+  display: inline-block;
+  vertical-align: bottom;
+  padding-left: 2rem;
+}
+.footerSocials{
+  vertical-align: bottom;
 }
 
 /* Projects */
