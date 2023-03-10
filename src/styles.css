@@ -431,11 +431,11 @@ ul{
   /* inital */
   .heading-primary{
     font-size: 2rem !important;
-    padding:6rem 0 0 0;
+    padding-top:15rem !important;
   }
   .para-primary{
     font-size: 1.5rem;
-    padding: 1rem;
+    padding: 2rem;
     text-align: justify;
   }
 
@@ -473,9 +473,8 @@ ul{
     padding-top:0 !important;
   }
   .heading-primary{
-    margin:0;
+    padding-top: 10rem;
     font-size: 3rem;
-    padding:8rem 0 0 0;
     display: block;
   }
   .buttonInitialParent{
