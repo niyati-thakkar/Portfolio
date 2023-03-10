@@ -263,7 +263,13 @@ ul{
     margin: 1rem 0 !important;
   }
   .articlesCardsParent{
-    margin: 0 !important;
+    margin: 0.5rem !important;
+  }
+  .topicTitleHeading{
+    font-size: 2rem !important;
+  }
+  .articlesTitleImage{
+    width: 2rem !important;
   }
   /* .resumeImage{
     width: 100%;
