@@ -2,6 +2,7 @@
 import EmailIcon from '@mui/icons-material/Email';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+
 function Initial({homeRef}){
     
     
@@ -9,10 +10,15 @@ function Initial({homeRef}){
     return(
         <div className="initial" ref={homeRef}>
         <h1 className="heading-primary row">HELLO, I AM</h1><h1 className="heading-primary row squeeze">NIYATI THAKKAR</h1>
-        <p className="para-primary">I am a Full Stack Web Developer and a Technical Content Writer.</p>
+        <p className="para-primary">I code and design websites and curate technical content.</p>
         <div className="buttonInitialParent"><a href="#" onClick={() => navigate("/projects")} className="initialLinks btn btn-lg btn-dark"  target="_blank">PROJECTS</a>
         <a href="#" onClick={() => navigate("/articles")} className="initialLinks btn btn-lg btn-dark"  target="_blank">ARTICLES</a></div>
-        <div className="talkButton"><a href="mailto:niyatithakkar29.nt@gmail.com" className="talkLink"  target="_blank"><EmailIcon /><br /></a></div>
+        <div>
+        <a href="mailto:niyatithakkar29.nt@gmail.com" className = "mailMeParent" target="_blank">
+        <span className='contactMeButton'>Contact Me <span className="emoji">👋</span></span>
+        <span  className="talkButton"><EmailIcon /></span>
+        <br /></a>
+        </div>
         </div>
     )
 }

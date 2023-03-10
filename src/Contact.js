@@ -2,13 +2,20 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 import handleScroll from "./handleScroll";
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 function Contact({contactRef}){
 return <footer className="regularFooter" ref={contactRef}>
     <div className="container">
+    <div className='semicircle'>
+    <div className='upIcon'>
+    {/* <FontAwesomeIcon icon="fa-solid fa-angle-up" /> */}
+    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="#f5f6fa" d="M169.4 137.4c12.5-12.5 32.8-12.5 45.3 0l160 160c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L192 205.3 54.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160z"/></svg></a>
+    </div>
+    </div>
         <div className="row footerDetails">
             <div className = "col-8 footerSection">
                 <h3 className="footerHeading">NIYATI THAKKAR</h3>
-                <p>I am a Full Stack Web Developer and a Technical Content Writer.</p>
+                <p>Full Stack Web Developer | Technical Content Writer.</p>
             </div>
             <div className = "col-4 footerSection">
             <h3 className="footerHeading">SOCIALS</h3>

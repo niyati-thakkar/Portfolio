@@ -13,6 +13,7 @@ import EXTNavbar from "./EXTNavbar";
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
 import Resume from "./Resume";
+
 function App() {
   const homeRef= useRef(null);
   const aboutRef= useRef(null);
@@ -50,6 +51,7 @@ function App() {
         <Resume/>
         </div>
       } />
+      
 
         
       
