@@ -1,14 +1,14 @@
 function DatabaseDoc(){
     const docs = [
         {
-            title:"What is a Secondary Key in DBMS?",
-            para:"Keys in DBMS are attributes or sets of attributes that helps in uniquely identify rows in a table. A table can have multiple columns or a set of columns that uniquely identify the rows.",
-            lnk:"https://www.scaler.com/topics/secondary-key-dbms/"
-        },
-        {
             title:"What are SQL Multiple JOINS?",
             para:"Multiple joins in SQL are used to join records of more than two tables based on related columns between them.",
             lnk:"https://www.scaler.com/topics/sql-multiple-joins/"
+        },
+        {
+            title:"What is a Secondary Key in DBMS?",
+            para:"Keys in DBMS are attributes or sets of attributes that helps in uniquely identify rows in a table. A table can have multiple columns or a set of columns that uniquely identify the rows.",
+            lnk:"https://www.scaler.com/topics/secondary-key-dbms/"
         },
         {
             title:"What is SQL SELECT INTO Statement?",

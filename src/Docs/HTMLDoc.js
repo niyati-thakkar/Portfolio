@@ -1,14 +1,14 @@
 function HTMLDoc(){
     const docs = [
         {
-            title:"<mark> Tag in HTML",
-            para:"HTML <mark> tag was introduced in HTML 5. The <mark> element is found within the <body> tag in HTML.",
-            lnk:"https://www.scaler.com/topics/mark-tag-in-html/"
-        },
-        {
             title:"<li> Tag in HTML",
             para:"<li> tag is used to specify a list item in various lists in HTML. It is used within an ordered list <OL>, an unordered list <UL>,",
             lnk:"https://www.scaler.com/topics/li-tag-in-html/"
+        },
+        {
+            title:"<mark> Tag in HTML",
+            para:"HTML <mark> tag was introduced in HTML 5. The <mark> element is found within the <body> tag in HTML.",
+            lnk:"https://www.scaler.com/topics/mark-tag-in-html/"
         },
         {
             title:"<sub> Tag in HTML",

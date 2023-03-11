@@ -1,14 +1,14 @@
 function KotlinDoc(){
     const docs = [
         {
-            title:"Concatenate Strings in Kotlin",
-            para:"Concatenation is an operation of joining two Strigs together. We can perform concatenation using various ways in Kotlin; they are explained below.",
-            lnk:"https://www.delftstack.com/howto/kotlin/concatenate-strings_in-kotlin/"
-        },
-        {
             title:"Higher Order Functions in Kotlin",
             para:"Functions in Kotlin are very flexible, and they can be stored in data structures, stored in variables, passed as an argument to a function, or returned by another function. They can do everything that the non-function variable does.",
             lnk:"https://www.delftstack.com/howto/kotlin/kotlin-pass-function-as-parameter/"
+        },
+        {
+            title:"Concatenate Strings in Kotlin",
+            para:"Concatenation is an operation of joining two Strigs together. We can perform concatenation using various ways in Kotlin; they are explained below.",
+            lnk:"https://www.delftstack.com/howto/kotlin/concatenate-strings_in-kotlin/"
         },
         {
             title:"Format String in Kotlin",

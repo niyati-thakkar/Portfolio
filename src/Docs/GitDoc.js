@@ -35,11 +35,6 @@ function GitDoc(){
             para:"It is sometimes necessary to remove Git from the project folder. Git when initialized in a folder, creates",
             lnk:"https://www.scaler.com/topics/git/remove-git-from-project/"
         },
-        {
-            title:"How To Remove Git From Project?",
-            para:"It is sometimes necessary to remove Git from the project folder. Git when initialized in a folder, creates",
-            lnk:"https://www.scaler.com/topics/git/remove-git-from-project/"
-        }
     ]
     return docs;
 }

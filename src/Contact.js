@@ -16,11 +16,13 @@ return <footer className="regularFooter" ref={contactRef}>
     </div>
         <div className="row footerDetails">
             <div className = "col-8 footerSection">
+            <a href="#" onClick={() => navigate("/")}>
             <img src={require(`./images/profileImage.png`)} className="profileImageFooter"/>
                 <div className='nameAndDesignation'>
                 <div className="footerHeading">NIYATI THAKKAR</div>
                 <div className="subLineFooter">Full Stack Web Developer | Technical Content Writer.</div>
                 </div>
+                </a>
             </div>
             <div className = "col-4 footerSection footerSocials">
             <div className="footerHeading">SOCIALS</div>

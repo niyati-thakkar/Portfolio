@@ -1,7 +1,7 @@
 function DSADoc(){
     const docs = [
         {
-            title:"Why Data Structures and Algorithms are important",
+            title:"Why Data Structures and Algorithms are important?",
             para:"Data structures and Algorithms are complicated and it takes time to become familiar with them. There are moments when we are stuck and often ask why we are studying these complex topics that are irrelevant, or of no use, especially while solving problems.",
             lnk:"https://www.studytonight.com/post/why-data-structures-and-algorithms-are-important"
         },

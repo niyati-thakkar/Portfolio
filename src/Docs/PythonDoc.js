@@ -1,14 +1,14 @@
 function PythonDoc(){
     const docs = [
         {
-            title:"Python Length of List",
-            para:"There are various methods to find out the length of the list in python. Two methods len() and length_hint() are inbuilt methods.",
-            lnk:"https://www.scaler.com/topics/python-length-of-list/"
-        },
-        {
             title:"User-Defined Exception in Python",
             para:"While writing real-life programs for various applications, we must put constraints on the variables of use. ",
             lnk:"https://www.scaler.com/topics/user-defined-exception-in-python/"
+        },
+        {
+            title:"Python Length of List",
+            para:"There are various methods to find out the length of the list in python. Two methods len() and length_hint() are inbuilt methods.",
+            lnk:"https://www.scaler.com/topics/python-length-of-list/"
         },
         {
             title:"Python Programs to Create Dictionary From Lists",

@@ -10,21 +10,21 @@ function ProjectDoc(){
         },
         {
             title : "Keeper App",
-            content : "Keeper App is built using React components.  Keeper App, a React project helps the user keep track of the tasks or lists in their day-to-day lives. These lists can be deleted when not in use.",
+            content : "Keeper App is built using React components. Keeper App, a React project helps the user keep track of the tasks or lists in their day-to-day lives. These lists can be deleted when not in use.",
             lnk : "https://my-keeper.vercel.app/",
             tags: ["ReactJS"],
             githlnk: "https://github.com/niyati-thakkar/my-keeper"  
         },
         {
             title : "Newsletter Signup",
-            content : "The newsletter signup project adds user details to the Mailchimp services list.sletter signup project adds user details to the Mailchimp services list.",
+            content : "The newsletter signup project adds user details to the Mailchimp services list.",
             lnk : "https://newsletter-signup-oldp.onrender.com/",
             tags: ["MailChimp", "Express"],
             githlnk: "https://github.com/niyati-thakkar/Newsletter-Signup" 
         },
         {
             title:"Portfolio",
-            content:"Here's my Portfolio prepared with ReactJS moreover and Bootstrap.",
+            content:"Here's my Portfolio prepared with ReactJS, Bootstrap. and CSS moreover",
             lnk : "https://my-portfolio-niyati-thakkar.vercel.app/",
             tags: ["ReactJS", "Bootstrap","HTML","CSS"],
             githlnk: "https://github.com/niyati-thakkar/Newsletter-Signup"
@@ -52,7 +52,7 @@ function ProjectDoc(){
         },
         {
             title : "Tindog",
-            content : "Tindog is an online web application where we can find friends for our Pets nearby. It is built using various bootstrap components such as carousals, cards, buttons, icons, footers, etc.",
+            content : "Tindog is an online web application where we can find friends for their Pets in nearby. It is built using various bootstrap components such as carousals, cards, buttons, icons, footers, etc.",
             lnk : "https://niyati-thakkar.github.io/Tindog/",
             tags: ["HTML", "CSS", "Bootstrap Components"],
             githlnk: "https://github.com/niyati-thakkar/Tindog"  

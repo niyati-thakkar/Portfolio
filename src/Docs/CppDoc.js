@@ -1,14 +1,14 @@
 function CppDoc(){
     const docs = [
         {
-            title:"Insertion Sort Program in C",
-            para:"Insertion sort is an algorithm to sort the given array. One by one it picks elements of an array from the beginning and sorts the array by placing them in their right position.",
-            lnk:"https://www.scaler.com/topics/insertion-sort-program-in-c/"
-        },
-        {
             title:"Lambda Functions and Wrappers in C++",
             para:"Lambda expressions are inline anonymous functions i.e. they do not have a name. Lambda has various parts such as",
             lnk:"https://www.scaler.com/topics/cpp/lambda-function-cpp/"
+        },
+        {
+            title:"Insertion Sort Program in C",
+            para:"Insertion sort is an algorithm to sort the given array. One by one it picks elements of an array from the beginning and sorts the array by placing them in their right position.",
+            lnk:"https://www.scaler.com/topics/insertion-sort-program-in-c/"
         },
         {
             title:"Caesar Cipher Program in C",
