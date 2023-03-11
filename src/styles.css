@@ -237,7 +237,7 @@ ul{
 }
 .projectCardTitle{
   position: relative;
-  display: inline-block;
+  display: inline;
   font-weight: 500;
   font-size: 2.5rem;
   padding-right: 1rem;
@@ -457,7 +457,14 @@ ul{
   
   /* project */
   .projectCardTitle{
-    font-size: 1.5rem !important;
+    font-size: 1.4rem !important;
+    display: block !important;
+  }
+  .projectCardLinks{
+    display: block;
+  }
+  .projectCardTitleAndLinks{
+    display: block;
   }
 }
 @media screen and (max-width: 600px){
