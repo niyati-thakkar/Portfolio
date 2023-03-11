@@ -6,7 +6,7 @@ function AboutMe({aboutRef}){
                 <SubHead head="ABOUT"/>
                 <div className="subHeadParentPara col">
                 <div className="subHeadPara">I am currently pursuing my Bachelor's of Engineering in Computer Science from L. D. College of Engineering, Ahmedabad. I am passionate about programming and technology. I enjoy solving DSA problems and Sudoku puzzles.</div>
-                <div className="subHeadPara"> Currently, I am exporing <b>Web Development</b> as well as working as a freelance <b>Technical Content Writer</b> at <b>Scaler</b>. I have written more than 70 articles on complex topics of Data Structures, Algorithms, Programming Languages (Python, C++, Java, CSS, etc.), DBMS, etc.</div>
+                <div className="subHeadPara"> Currently, I am exploring <b>Web Development</b> as well as working as a freelance <b>Technical Content Writer</b> at <b>Scaler</b>. I have written more than 70 articles on complex topics of Data Structures, Algorithms, Programming Languages (Python, C++, Java, CSS, etc.), DBMS, etc.</div>
                 <div className="subHeadPara">I am open to making new connections, opportunities, and projects. Feel free to Connect or Follow on <b><a href="#">LinkedIn</a></b>.</div>
                 </div>
                 <div className="col subHeadParentPara">
